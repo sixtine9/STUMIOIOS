@@ -1,17 +1,19 @@
-//
-//  PlacesCellTableViewCell.swift
-//  Stumio
-//
-//  Created by Nassim Guettat on 16/12/2020.
-//
 
 import UIKit
 
-class PlacesCellTableViewCell: UITableViewCell {
-
+class PlacesCell: UITableViewCell {
+    
+    @IBOutlet weak var locationLbl: UILabel!
+    
+    @IBOutlet weak var title: UILabel!
+    @IBOutlet weak var cellStackView: UIStackView!
+    @IBOutlet weak var titleStack: UIStackView!
+    @IBOutlet weak var restoImg: UIImageView!
+    var separatorView = UIView(frame: CGRect(x: 0, y: 0, width: UIScreen.main.bounds.width, height: 0.6))
+    
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
+        self.contentView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
     }
 
     override func setSelected(_ selected: Bool, animated: Bool) {

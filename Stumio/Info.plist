@@ -62,5 +62,11 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Stumio a besoin d&apos;acceder a votre localisaiton</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Stumio a besoin d&apos;acceder a votre localisaiton</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Stumio a besoin d&apos;acceder a votre localisaiton</string>
 </dict>
 </plist>

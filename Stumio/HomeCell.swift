@@ -1,14 +1,17 @@
-//
-//  HomeCellTableViewCell.swift
-//  Stumio
-//
-//  Created by Nassim Guettat on 16/12/2020.
-//
 
 import UIKit
 
-class HomeCellTableViewCell: UITableViewCell {
-
+class HomeCell: UITableViewCell {
+    @IBOutlet weak var backgroundImg: UIImageView!
+    
+    @IBOutlet weak var titleLbl: UILabel!
+    
+    @IBOutlet weak var titleLocation: UILabel!
+    
+    @IBOutlet weak var titlesStack: UIStackView!
+    
+    var backView : UIView! = nil
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

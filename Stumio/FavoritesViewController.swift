@@ -1,21 +1,55 @@
-//
-//  FavoritesViewController.swift
-//  Stumio
-//
-//  Created by Nassim Guettat on 16/12/2020.
-//
 
 import UIKit
 
 class FavoritesViewController: UIViewController {
 
+    @IBOutlet weak var sideView: UIView!
+    
+    @IBOutlet weak var menuLeading: NSLayoutConstraint!
+    var menuIsHidden = true;
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        menuLeading.constant = -240
+        sideView.layer.shadowOpacity = 0.5
+        sideView.layer.shadowRadius = 10
+        self.navigationController?.isNavigationBarHidden = true
     }
     
+    @IBAction func screenTapped(_ sender: Any) {
+        self.menuLeading.constant = -240
 
+        UIView.animate(withDuration: 0.3, animations: {
+            self.view.layoutIfNeeded()
+        })
+        
+        menuIsHidden = true
+    }
+    
+    @IBAction func hamburgerTapped(_ sender: Any) {
+        if(menuIsHidden){
+            
+
+                self.menuLeading.constant = 0
+            UIView.animate(withDuration: 0.3, animations: {
+                self.view.layoutIfNeeded()
+            })
+            
+            
+        }else{
+            self.menuLeading.constant = -240
+
+            UIView.animate(withDuration: 0.3, animations: {
+                self.view.layoutIfNeeded()
+            })
+                
+                
+            
+            
+        }
+        
+        menuIsHidden = !menuIsHidden
+    }
     /*
     // MARK: - Navigation
 

@@ -3,10 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C07CF9E258A315D005EFF74 /* SideMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C07CF9D258A315D005EFF74 /* SideMenu.swift */; };
+		4C07CFA3258A345B005EFF74 /* PlacesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C07CFA2258A345B005EFF74 /* PlacesViewController.swift */; };
+		4C07CFA8258A3470005EFF74 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C07CFA7258A3470005EFF74 /* FavoritesViewController.swift */; };
+		4C07CFAD258A3480005EFF74 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C07CFAC258A3480005EFF74 /* InfoViewController.swift */; };
+		4C07CFB5258A3FAC005EFF74 /* HomeTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C07CFB4258A3FAC005EFF74 /* HomeTableView.swift */; };
+		4C07CFBA258A433A005EFF74 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C07CFB9258A433A005EFF74 /* HomeCell.swift */; };
+		4C07CFCF258A6647005EFF74 /* PlacesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C07CFCE258A6647005EFF74 /* PlacesCell.swift */; };
+		4C07CFD7258A66C3005EFF74 /* PlacesTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C07CFD6258A66C3005EFF74 /* PlacesTableView.swift */; };
 		4CEA7495258A0B6400F0183C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEA7494258A0B6400F0183C /* AppDelegate.swift */; };
 		4CEA7497258A0B6400F0183C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEA7496258A0B6400F0183C /* SceneDelegate.swift */; };
 		4CEA7499258A0B6400F0183C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEA7498258A0B6400F0183C /* ViewController.swift */; };
@@ -15,6 +23,11 @@
 		4CEA74A1258A0B6800F0183C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CEA749F258A0B6800F0183C /* LaunchScreen.storyboard */; };
 		4CEA74AC258A0B6900F0183C /* StumioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEA74AB258A0B6900F0183C /* StumioTests.swift */; };
 		4CEA74B7258A0B6900F0183C /* StumioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CEA74B6258A0B6900F0183C /* StumioUITests.swift */; };
+		4CF357B025B09175000A734C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4CF357AF25B09175000A734C /* GoogleService-Info.plist */; };
+		4CF3581425B0CB0F000A734C /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF3581325B0CB0F000A734C /* Restaurant.swift */; };
+		79F781F2F6BE1EC08706BDAA /* Pods_StumioTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44AA505A67DD77DD8E6FB092 /* Pods_StumioTests.framework */; };
+		802709C9C3694169C0239C2F /* Pods_Stumio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D47DE6B90B25BC8BD9254F5 /* Pods_Stumio.framework */; };
+		A58DA9DDBF0C3AC5B53DB1CE /* Pods_Stumio_StumioUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2015D1FB8FCAC1E6575FD57F /* Pods_Stumio_StumioUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +48,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0F6E7836F7C9DA43F6126A22 /* Pods-Stumio.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stumio.debug.xcconfig"; path = "Target Support Files/Pods-Stumio/Pods-Stumio.debug.xcconfig"; sourceTree = "<group>"; };
+		2015D1FB8FCAC1E6575FD57F /* Pods_Stumio_StumioUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stumio_StumioUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44AA505A67DD77DD8E6FB092 /* Pods_StumioTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StumioTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C07CF9D258A315D005EFF74 /* SideMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenu.swift; sourceTree = "<group>"; };
+		4C07CFA2258A345B005EFF74 /* PlacesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesViewController.swift; sourceTree = "<group>"; };
+		4C07CFA7258A3470005EFF74 /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		4C07CFAC258A3480005EFF74 /* InfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		4C07CFB4258A3FAC005EFF74 /* HomeTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableView.swift; sourceTree = "<group>"; };
+		4C07CFB9258A433A005EFF74 /* HomeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		4C07CFCE258A6647005EFF74 /* PlacesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesCell.swift; sourceTree = "<group>"; };
+		4C07CFD6258A66C3005EFF74 /* PlacesTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesTableView.swift; sourceTree = "<group>"; };
 		4CEA7491258A0B6400F0183C /* Stumio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stumio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CEA7494258A0B6400F0183C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4CEA7496258A0B6400F0183C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +73,14 @@
 		4CEA74B2258A0B6900F0183C /* StumioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StumioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4CEA74B6258A0B6900F0183C /* StumioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StumioUITests.swift; sourceTree = "<group>"; };
 		4CEA74B8258A0B6900F0183C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CF357AF25B09175000A734C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4CF3581325B0CB0F000A734C /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		642DC9A515B877F3B05B625B /* Pods-StumioTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StumioTests.release.xcconfig"; path = "Target Support Files/Pods-StumioTests/Pods-StumioTests.release.xcconfig"; sourceTree = "<group>"; };
+		7D47DE6B90B25BC8BD9254F5 /* Pods_Stumio.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Stumio.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8ABC660FFDC70F2C7483547B /* Pods-Stumio.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stumio.release.xcconfig"; path = "Target Support Files/Pods-Stumio/Pods-Stumio.release.xcconfig"; sourceTree = "<group>"; };
+		B81776D90CE87DE0D02C0FB5 /* Pods-Stumio-StumioUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stumio-StumioUITests.release.xcconfig"; path = "Target Support Files/Pods-Stumio-StumioUITests/Pods-Stumio-StumioUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B98B6D107B74BD6794C9850F /* Pods-StumioTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StumioTests.debug.xcconfig"; path = "Target Support Files/Pods-StumioTests/Pods-StumioTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F6D4B864489F2D003C6AE882 /* Pods-Stumio-StumioUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Stumio-StumioUITests.debug.xcconfig"; path = "Target Support Files/Pods-Stumio-StumioUITests/Pods-Stumio-StumioUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				802709C9C3694169C0239C2F /* Pods_Stumio.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79F781F2F6BE1EC08706BDAA /* Pods_StumioTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +104,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A58DA9DDBF0C3AC5B53DB1CE /* Pods_Stumio_StumioUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +118,8 @@
 				4CEA74AA258A0B6900F0183C /* StumioTests */,
 				4CEA74B5258A0B6900F0183C /* StumioUITests */,
 				4CEA7492258A0B6400F0183C /* Products */,
+				66CDF0177096F4497B253BA4 /* Pods */,
+				96DC77389731E244F01B2CFD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,9 +139,19 @@
 				4CEA7494258A0B6400F0183C /* AppDelegate.swift */,
 				4CEA7496258A0B6400F0183C /* SceneDelegate.swift */,
 				4CEA7498258A0B6400F0183C /* ViewController.swift */,
+				4C07CF9D258A315D005EFF74 /* SideMenu.swift */,
 				4CEA749A258A0B6400F0183C /* Main.storyboard */,
+				4C07CFCE258A6647005EFF74 /* PlacesCell.swift */,
+				4C07CFD6258A66C3005EFF74 /* PlacesTableView.swift */,
+				4C07CFB9258A433A005EFF74 /* HomeCell.swift */,
+				4C07CFB4258A3FAC005EFF74 /* HomeTableView.swift */,
+				4CF3581325B0CB0F000A734C /* Restaurant.swift */,
+				4C07CFA2258A345B005EFF74 /* PlacesViewController.swift */,
+				4C07CFA7258A3470005EFF74 /* FavoritesViewController.swift */,
+				4C07CFAC258A3480005EFF74 /* InfoViewController.swift */,
 				4CEA749D258A0B6800F0183C /* Assets.xcassets */,
 				4CEA749F258A0B6800F0183C /* LaunchScreen.storyboard */,
+				4CF357AF25B09175000A734C /* GoogleService-Info.plist */,
 				4CEA74A2258A0B6800F0183C /* Info.plist */,
 			);
 			path = Stumio;
@@ -128,6 +175,29 @@
 			path = StumioUITests;
 			sourceTree = "<group>";
 		};
+		66CDF0177096F4497B253BA4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F6E7836F7C9DA43F6126A22 /* Pods-Stumio.debug.xcconfig */,
+				8ABC660FFDC70F2C7483547B /* Pods-Stumio.release.xcconfig */,
+				F6D4B864489F2D003C6AE882 /* Pods-Stumio-StumioUITests.debug.xcconfig */,
+				B81776D90CE87DE0D02C0FB5 /* Pods-Stumio-StumioUITests.release.xcconfig */,
+				B98B6D107B74BD6794C9850F /* Pods-StumioTests.debug.xcconfig */,
+				642DC9A515B877F3B05B625B /* Pods-StumioTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		96DC77389731E244F01B2CFD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D47DE6B90B25BC8BD9254F5 /* Pods_Stumio.framework */,
+				2015D1FB8FCAC1E6575FD57F /* Pods_Stumio_StumioUITests.framework */,
+				44AA505A67DD77DD8E6FB092 /* Pods_StumioTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +205,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4CEA74BB258A0B6900F0183C /* Build configuration list for PBXNativeTarget "Stumio" */;
 			buildPhases = (
+				A0FAE918D70BCBF12D7E124F /* [CP] Check Pods Manifest.lock */,
 				4CEA748D258A0B6400F0183C /* Sources */,
 				4CEA748E258A0B6400F0183C /* Frameworks */,
 				4CEA748F258A0B6400F0183C /* Resources */,
+				AE9EE5EA04A6E38075778A73 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +224,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4CEA74BE258A0B6900F0183C /* Build configuration list for PBXNativeTarget "StumioTests" */;
 			buildPhases = (
+				956708123CDBF584D3637AE7 /* [CP] Check Pods Manifest.lock */,
 				4CEA74A3258A0B6900F0183C /* Sources */,
 				4CEA74A4258A0B6900F0183C /* Frameworks */,
 				4CEA74A5258A0B6900F0183C /* Resources */,
@@ -170,9 +243,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4CEA74C1258A0B6900F0183C /* Build configuration list for PBXNativeTarget "StumioUITests" */;
 			buildPhases = (
+				14D1712BFE1FD3E008504BBF /* [CP] Check Pods Manifest.lock */,
 				4CEA74AE258A0B6900F0183C /* Sources */,
 				4CEA74AF258A0B6900F0183C /* Frameworks */,
 				4CEA74B0258A0B6900F0183C /* Resources */,
+				006FF04E5F5DB5B1EC9B20A0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -231,6 +306,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CF357B025B09175000A734C /* GoogleService-Info.plist in Resources */,
 				4CEA74A1258A0B6800F0183C /* LaunchScreen.storyboard in Resources */,
 				4CEA749E258A0B6800F0183C /* Assets.xcassets in Resources */,
 				4CEA749C258A0B6400F0183C /* Main.storyboard in Resources */,
@@ -253,6 +329,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		006FF04E5F5DB5B1EC9B20A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Stumio-StumioUITests/Pods-Stumio-StumioUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Stumio-StumioUITests/Pods-Stumio-StumioUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Stumio-StumioUITests/Pods-Stumio-StumioUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		14D1712BFE1FD3E008504BBF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Stumio-StumioUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		956708123CDBF584D3637AE7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StumioTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A0FAE918D70BCBF12D7E124F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Stumio-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE9EE5EA04A6E38075778A73 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Stumio/Pods-Stumio-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Stumio/Pods-Stumio-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Stumio/Pods-Stumio-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4CEA748D258A0B6400F0183C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -260,7 +439,16 @@
 			files = (
 				4CEA7499258A0B6400F0183C /* ViewController.swift in Sources */,
 				4CEA7495258A0B6400F0183C /* AppDelegate.swift in Sources */,
+				4C07CFB5258A3FAC005EFF74 /* HomeTableView.swift in Sources */,
 				4CEA7497258A0B6400F0183C /* SceneDelegate.swift in Sources */,
+				4C07CFAD258A3480005EFF74 /* InfoViewController.swift in Sources */,
+				4C07CFCF258A6647005EFF74 /* PlacesCell.swift in Sources */,
+				4C07CFA3258A345B005EFF74 /* PlacesViewController.swift in Sources */,
+				4C07CFA8258A3470005EFF74 /* FavoritesViewController.swift in Sources */,
+				4CF3581425B0CB0F000A734C /* Restaurant.swift in Sources */,
+				4C07CF9E258A315D005EFF74 /* SideMenu.swift in Sources */,
+				4C07CFD7258A66C3005EFF74 /* PlacesTableView.swift in Sources */,
+				4C07CFBA258A433A005EFF74 /* HomeCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,12 +621,15 @@
 		};
 		4CEA74BC258A0B6900F0183C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F6E7836F7C9DA43F6126A22 /* Pods-Stumio.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q2WJ7VT82Z;
 				INFOPLIST_FILE = Stumio/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -452,12 +643,15 @@
 		};
 		4CEA74BD258A0B6900F0183C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8ABC660FFDC70F2C7483547B /* Pods-Stumio.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Q2WJ7VT82Z;
 				INFOPLIST_FILE = Stumio/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -471,6 +665,7 @@
 		};
 		4CEA74BF258A0B6900F0183C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B98B6D107B74BD6794C9850F /* Pods-StumioTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +688,7 @@
 		};
 		4CEA74C0258A0B6900F0183C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 642DC9A515B877F3B05B625B /* Pods-StumioTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +711,7 @@
 		};
 		4CEA74C2258A0B6900F0183C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6D4B864489F2D003C6AE882 /* Pods-Stumio-StumioUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +732,7 @@
 		};
 		4CEA74C3258A0B6900F0183C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B81776D90CE87DE0D02C0FB5 /* Pods-Stumio-StumioUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
